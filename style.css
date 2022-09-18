@@ -36,20 +36,34 @@ h3 {
     align-items: center;
 }
 
-.datosPersonales {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50vh;
-    margin-left: 50vh;
-    border: 1px solid black;
-    height: 300px;
-    width: 200px;
-    background-color: blue;
 
+.contenedor_parrafo {
+    display: flex;
+    width: 50%;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 20px;
+    color: aliceblue;
+    flex-direction: row;
+    background: linear-gradient(30deg, rgb(11, 1, 151), rgb(0, 194, 228));
+    justify-content: center;
+    margin: 50px auto;
+    height: 500px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0.2);
 }
 
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 40px;
+    flex-wrap: nowrap;
+}
+
+.contenido .titulo {
+    margin: 20px auto;
+
+}
 
 
 
@@ -83,7 +97,14 @@ h3 {
     }
 
 
-    .datosPersonales{
+    .datosPersonales {
         position: inherit;
     }
+
+.contenedor_parrafo {
+width: 350px;
+height: 500px;
+
+}
+
 }
