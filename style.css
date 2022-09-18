@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedorGeneral {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    flex-wrap: wrap;
+
+}
+
+.header {
+
+    background: linear-gradient(30deg, rgb(11, 1, 151), rgb(0, 194, 228));
+    height: 250px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+h5 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datosPersonales {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50vh;
+    margin-left: 50vh;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) {
+    .header {
+        background: linear-gradient(30deg, rgb(0, 194, 228), rgb(11, 1, 151));
+        height: 30vh;
+
+    }
+
+
+    h5 {
+        font-size: 5vh;
+        margin-top: 10vh;
+    }
+
+
+    .datosPersonales{
+        position: inherit;
+    }
+}
