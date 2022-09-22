@@ -18,7 +18,7 @@
     background-color: rgba(1, 27, 77, 0.705);
     height: 250px;
     width: 100%;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 20px;
 
 }
@@ -29,6 +29,7 @@ h5 {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+    color: #fff;
 
 }
 
@@ -36,17 +37,21 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#fff;
 }
 .contenedorGeneral .navbar{
+    border-radius: 20px;
     background-color: rgba(1, 27, 77, 0.705);
+    align-items:flex-end ;
+    border: solid 1px black;
 }
 
 .contenedor_parrafo {
     display: flex;
     width: 50%;
-    border: rgb(0, 0, 0) solid;
+    border: rgb(0, 0, 0) solid 1px;
     border-radius: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     flex-direction: row;
     background-color: rgba(1, 27, 77, 0.705);
     justify-content: center;
@@ -89,7 +94,7 @@ footer {
     align-items: center;
     flex-direction: column;
     /*background-color: var(--dark);*/
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /*background: linear-gradient(30deg, rgb(11, 1, 151), rgb(0, 194, 228));*/
     background-color: rgba(1, 27, 77, 0.705);
 }
@@ -100,7 +105,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .copyright {
