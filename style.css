@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 .containerGral {
 display: flex;
@@ -168,76 +169,6 @@ li a {
 li a:hover {
     color: #023a13;
 }
-/*------------------------CSS CONTACTO---------------------*/
-.contenedorFormulario {
-    display: none;
-    width: 50%;
-    margin-top: 10px;
-    border: rgb(0, 0, 0) solid 1px;
-    border-radius: 20px;
-    color: rgb(255, 255, 255);
-    flex-direction: column;
-    background-color: rgba(1, 28, 77, 0.877);
-    justify-content: center;
-    margin: 50px auto;
-    height: 500px; 
-}
-.contenidoForm {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 100%;
-}
-.form {
-    background-color: rgba(1, 28, 77, 0.877);
-    width: 90%;
-    max-width: 400px;
-    border-radius: 1em;
-    padding: 3.5em 1.5em;
-    margin: auto;
-}
-.formContainer {
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
-}
-.formTitle {
-    color: #fff;
-    text-align: center;
-    font-size: 1.9rem;
-    margin-bottom: .4em;
-}
-.formImput {
-    font-family: inherit;
-    font-size: 1rem;
-    padding: 1em 1em;
-    outline: none;
-    border: none;
-    border: 1px solid rgb(0, 0, 0);
-}
-.formImput textarea {
-    height: 200px;
-}
-.formCta {
-    font-family: inherit;
-    height: 50px;
-    background-color: #089fe0;
-    color: #fff;
-    border: none;
-    font-weight: 300;
-    font-size: 1rem;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
-    transition: background-color;
-
-}
-.formCta:hover {
-    background-color: blue;
-}
-
-
 
 
 
