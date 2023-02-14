@@ -258,9 +258,9 @@ nav .menu span:nth-child(3) {
 .cajaPadre {
     width: 40%;
     min-width: 590px;
-    
-display: flex;
-flex-wrap: wrap;
+
+    display: flex;
+    flex-wrap: wrap;
 
 
 
@@ -283,101 +283,113 @@ flex-wrap: wrap;
     font-weight: 500;
 }
 
-.skillProgress:not(:last-child){
-margin-bottom: 5px;
+.skillProgress:not(:last-child) {
+    margin-bottom: 5px;
 }
 
-.detalles{
+.detalles {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
-.menuSkill{
+
+.menuSkill {
     position: relative;
     border: 1px solid #00b418;
     border-radius: 20px;
 }
-.menuSkill div{
+
+.menuSkill div {
     position: relative;
     width: 0;
     height: 8px;
     border-radius: 10px;
     background-color: #00b418;
 }
+
 /*animacion*/
-#htmlMenu{
-animation: html-barra 2s forwards;
+#htmlMenu {
+    animation: html-barra 2s forwards;
 }
-@keyframes html-barra{
-    100%{
+
+@keyframes html-barra {
+    100% {
         width: 90%;
     }
 }
 
-#cssMenu{
+#cssMenu {
     animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra {
+    100% {
+        width: 70%;
     }
-    @keyframes css-barra{
-        100%{
-            width: 70%;
-        }
+}
+
+#jsMenu {
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra {
+    100% {
+        width: 60%;
     }
+}
 
-    #jsMenu{
-        animation: js-barra 2s forwards;
-        }
-        @keyframes js-barra{
-            100%{
-                width: 60%;
-            }
-        }
+#reactMenu {
+    animation: react-barra 2s forwards;
+}
 
-        #reactMenu{
-            animation: react-barra 2s forwards;
-            }
-            @keyframes react-barra{
-                100%{
-                    width: 90%;
-                }
-            }
+@keyframes react-barra {
+    100% {
+        width: 90%;
+    }
+}
 
-            #boostrapMenu{
-                animation: boostrap-barra 2s forwards;
-                }
-                @keyframes boostrap-barra{
-                    100%{
-                        width: 70%;
-                    }
-                }
+#boostrapMenu {
+    animation: boostrap-barra 2s forwards;
+}
 
-                #githubMenu{
-                    animation: git-barra 2s forwards;
-                    }
-                    @keyframes git-barra{
-                        100%{
-                            width: 60%;
-                        }
-                    }
+@keyframes boostrap-barra {
+    100% {
+        width: 70%;
+    }
+}
 
-                    #nodeMenu{
-                        animation: node-barra 2s forwards;
-                        }
-                        @keyframes node-barra{
-                            100%{
-                                width: 40%;
-                            }
-                        }
+#githubMenu {
+    animation: git-barra 2s forwards;
+}
+
+@keyframes git-barra {
+    100% {
+        width: 60%;
+    }
+}
+
+#nodeMenu {
+    animation: node-barra 2s forwards;
+}
+
+@keyframes node-barra {
+    100% {
+        width: 40%;
+    }
+}
 
 
-                        #sqlMenu{
-                            animation: sql-barra 2s forwards;
-                            }
-                            @keyframes sql-barra{
-                                100%{
-                                    width: 30%;
-                                }
-                            }
+#sqlMenu {
+    animation: sql-barra 2s forwards;
+}
+
+@keyframes sql-barra {
+    100% {
+        width: 30%;
+    }
+}
+
 /*
 
 
