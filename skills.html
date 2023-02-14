@@ -19,32 +19,36 @@
 </head>
 
 <body class="skills">
-    <input id="navbar" type='checkbox'>
-    <label for="navbar">
-        <div class='menu'>
-            <span class='hamburger'></span>
+    <!-- NAV -->
+    <nav id="nav">
+        <ul id="options">
+            <div class="opciones">
+                <li>
+                    <a href="#" class="text-uppercase">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="text-uppercase">About Me</a>
+                </li>
+                <li>
+                    <a href="#" class="text-uppercase">Skills</a>
+                </li>
+                <li>
+                    <a href="#" class="text-uppercase">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="text-uppercase">Blog</a>
+                </li>
+            </div>
+        </ul>
+        <div class="menu" id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-    </label>
-    <ul>
-        <li><a href='./index.html'>Home</a></li>
-        <li><a href='./service.html'>Service</a></li>
-        <li><a href='./skills.html'>Skills</a></li>
-        <li><a href='./education.html'>Education</a></li>
-        <li><a href='./contact.html'>Contact</a></li>
-    </ul>
-
-
-    <div class="containerSkills">
-
-        <h1 class="logo"> <span class="span">Skills</span> Developer</h1>
-        <!--
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/html.png" alt=""></div>
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/css.png" alt=""></div>
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/javascript.png" alt=""></div>
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/react.png" alt=""></div>
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/nodejs.png" alt=""></div>
-        <div class="skill"><img class="imgSkill" src="./imagenes/logos/mysql.png" alt=""></div>
-      -->
+    </nav>
+    <!-- NAV -->
+    <div>
+        <h1 class="logo"><span class="span">Skills</span>&ensp;Developer</h1>
         <div class="slider">
             <div class="slide-track">
                 <div class="slide">
@@ -72,12 +76,118 @@
                     <img src="./imagenes/logos/vscode.png" alt="">
                     <img src="./imagenes/logos/exel.png" alt="">
                     <img src="./imagenes/logos/word.png" alt="">
-                
                 </div>
             </div>
         </div>
+        <div class="cajaPadre">
+            
+            <div class="contenedor">
+                
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="htmlMenu">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="cssMenu">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>JAVASCRIPT</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="jsMenu">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>REACT</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="reactMenu">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>BOOSTRAP</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="boostrapMenu">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>GITHUB</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="githubMenu">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>NODE JS</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="nodeMenu">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skillProgress">
+                    <div class="detalles">
+                        <span>MY SQL</span>
+                        <span>30%</span>
+                    </div>
+                    <div class="menuSkill">
+                        <div id="sqlMenu">
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            
+                
+                
+
+
+
+            
+        </div>
+
     </div>
-    
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
