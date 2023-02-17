@@ -4,14 +4,12 @@
     box-sizing: border-box;
 
 }
-
 .containerGral {
     display: flex;
     background-color: black;
     width: 1360px;
     height: 639px;
 }
-
 .ContainerGreen {
     background-color: rgba(7, 124, 13, 0.877);
     height: 639px;
@@ -19,7 +17,6 @@
     border: 1px solid rgb(85, 85, 85);
     flex-wrap: nowrap;
 }
-
 .ContainerBlack {
     background-color: rgba(28, 63, 49, 0.877);
     height: 639px;
@@ -27,38 +24,28 @@
     border: 1px solid rgb(85, 85, 85);
 
 }
-
 .containerTitle {
     margin-left: 150px;
     margin-top: 150px;
-
 }
-
 .subTitle {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
-
 }
-
 .title {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-
 }
 
 .parrafo {
-    
-
     font-family: 'Kalam', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    margin-left: 150px;
-    margin-top: 30px;
+    
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -72,11 +59,9 @@
     margin-top: 600px;
     margin-left: 280px;
 }
-
 .img {
     height: 30px;
 }
-
 .containerImg {
     height: 250px;
     width: 250px;
@@ -85,7 +70,6 @@
     left: 300px;
     top: 180px;
 }
-
 .imgPerfil {
     height: 250px;
     width: 250px;
@@ -93,25 +77,27 @@
 }
 
 /*botonHamburger*/
-nav {
+#nav {
     transition: all ease-in-out 1s;
     background: #242424;
     border-bottom: 2.5px solid #00b418;
     padding: 10px 20px;
     width: 100%;
-    height: 65px;
+    height: 50px;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+font-family: 'Quicksand', sans-serif;
+line-height: 1.6;
 }
 
 nav ul {
     position: absolute;
-    top: 65px;
+    top: 45px;
     left: 0;
     background: #242424;
     width: 100%;
@@ -119,6 +105,8 @@ nav ul {
     transition: clip-path .8s ease-out;
     z-index: 50;
     text-decoration: none;
+    margin-top: 10px;
+
 }
 
 nav ul .opciones {
@@ -222,8 +210,6 @@ nav .menu span:nth-child(3) {
 }
 
 @media screen and (min-width: 1024px) {
-
-
     nav {
         height: 70px;
     }
@@ -248,31 +234,23 @@ nav .menu span:nth-child(3) {
     background-color: #181818;
     font-family: 'Quicksand', sans-serif;
 }
-
 .logo {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     font-size: 2em;
 }
-
 .logo .span {
     color: #00b418;
 }
-
 
 /*mis habilidades*/
 .cajaPadre {
     width: 40%;
     min-width: 590px;
-
     display: flex;
     flex-wrap: wrap;
-
-
-
 }
-
 .contenedor {
     width: 100%;
     padding: 10px 10px 15px;
@@ -283,30 +261,25 @@ nav .menu span:nth-child(3) {
     backdrop-filter: blur(10px);
     margin-top: 20px;
 }
-
 .contenedor * {
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-weight: 500;
 }
-
 .skillProgress:not(:last-child) {
     margin-bottom: 5px;
 }
-
 .detalles {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
-
 .menuSkill {
     position: relative;
     border: 1px solid #00b418;
     border-radius: 20px;
 }
-
 .menuSkill div {
     position: relative;
     width: 0;
@@ -319,78 +292,62 @@ nav .menu span:nth-child(3) {
 #htmlMenu {
     animation: html-barra 2s forwards;
 }
-
 @keyframes html-barra {
     100% {
         width: 90%;
     }
 }
-
 #cssMenu {
     animation: css-barra 2s forwards;
 }
-
 @keyframes css-barra {
     100% {
         width: 70%;
     }
 }
-
 #jsMenu {
     animation: js-barra 2s forwards;
 }
-
 @keyframes js-barra {
     100% {
         width: 60%;
     }
 }
-
 #reactMenu {
     animation: react-barra 2s forwards;
 }
-
 @keyframes react-barra {
     100% {
         width: 90%;
     }
 }
-
 #boostrapMenu {
     animation: boostrap-barra 2s forwards;
 }
-
 @keyframes boostrap-barra {
     100% {
         width: 70%;
     }
 }
-
 #githubMenu {
     animation: git-barra 2s forwards;
 }
-
 @keyframes git-barra {
     100% {
         width: 60%;
     }
 }
-
 #nodeMenu {
     animation: node-barra 2s forwards;
 }
-
 @keyframes node-barra {
     100% {
         width: 40%;
     }
 }
-
-
 #sqlMenu {
     animation: sql-barra 2s forwards;
 }
-
 @keyframes sql-barra {
     100% {
         width: 30%;
@@ -402,41 +359,30 @@ nav .menu span:nth-child(3) {
 
 
 @media screen and (width: 320px) {
-
-
     .containerGral {
         display: flex;
         width: 320px;
         height: 550px;
     }
-
     .ContainerGreen {
         width: 45px;
         height: 550px;
-
     }
-
     .ContainerBlack {
         width: 275px;
         height: 550px;
-
     }
-
     .containerTitle {
-
         margin-top: 80px;
         margin-left: 10px;
     }
-
     .parrafo {
         width: 250px;
         height: 200px;
         margin-left: 10px;
         font-size: 14.5px;
-        
         margin: 0 1;
     }
-
     .containerSocial {
         width: 30px;
         margin: 0;
@@ -444,16 +390,11 @@ nav .menu span:nth-child(3) {
         margin-right: 200px;
         flex-direction: column;
     }
-
     .containerImg {
         width: 120px;
         height: 120px;
         margin-left: 80px;
         margin-top: 20px;
-       
-       
-       
-
     }
     .imgPerfil{
         width: 120px;
@@ -461,8 +402,12 @@ nav .menu span:nth-child(3) {
         
     }
 }
+@media screen and (min-width: 768px) {
 
 
 
 
-@media screen and (min-width: 1024px) {}
+
+
+
+}
